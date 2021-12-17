@@ -39,7 +39,8 @@ Six areas have initially identified which could feed data into the ACG solution:
 6. Vulnerability Scanning
 
 The MVP won’t initially provide alerting functionality as this will remain the perdue of the current organisation’s solution.
-Outcomes
+
+### Outcomes
 
 The main outcome will be to enable DevSecOps teams (and CISOs) to quickly identify possible areas of concern and allow for better collaboration across multi-functional teams.  Using a plug-in framework will allow development teams to build their own integration points and share them across the organisation.  
 
