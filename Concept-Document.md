@@ -1,4 +1,4 @@
-![GitHub Logo](asg-logo.png)
+![GitHub Logo](rh-telescope.png)
 
 # Advanced Security Governance
 ## Concept Document
