@@ -1,0 +1,52 @@
+Initial decision was to standup OCP 4.10 cluster with:
+  two single-repo test applications
+  security tooling/operators across five (5) domains:
+    secure infra
+      RHACS
+      CrowdStrike Falcon
+    secure data
+      DataDog
+    secure code
+      SonarQube
+      OWASP Zap
+      RHACS
+    secure integrations
+      Shadow Daemon
+    secure monitoring
+      logz.io
+ Furthermore, static patternfly dashboard was landed in the environment with the goal to:
+  create dynamic react-based version of dashboard
+ 
+ This approach led to a massive amount of complexity and deprecation of functionality. Operators and tools were either
+  unavailable
+ or
+  not suitable for use
+The complexity led us to take a new approach:
+
+A new OpenShift 4.10 cluster was create with:
+  RH-Labs Ubiquitous Journey:
+    2 test apps
+    1 front-end microservice
+    developer CI/CD tooling suite, including:
+      RHACS
+      SonarQube
+      Nexus
+      Argos
+      KubeSeal
+      Prometheus Graphana monitoring
+      & More
+The approach is:
+to deploy a number of modular, reusable microservices to create an integration between the tooling in the cluster and the test applications,
+A persistent backend database will be created to store the results of the status of integrations, which
+will be exposed via an endpoint to the front-end dynamic dashhboard to allow a pull to the backend to query the latest result of status.
+
+TO DO post-PoC:
+  Instansiate webhook between front-end
+  Investigate utilizing K8 eventing
+  Implement more robust method for persistance in the backend utilizing operators such as postGRESql
+  The Application itself will need significant modification and testing to ensure production readiness
+  Need to test API integrations to propietary software APIs
+  Script the Environment so that it can be auto-deployed
+  Find mechanism to pull configs out of RHDPS into persistant upstream
+Findings:
+  Ubiquitous Journey serves as a functional bootstrap to test ideation of product capability, but we will need to investigate an option for a more robust, client-simulating environment post-PoC.
