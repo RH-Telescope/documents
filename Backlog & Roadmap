@@ -1,0 +1,29 @@
+                                Project Telescope Backlog and Roadmap
+
+Phase 1:
+  Build PoC for core functionality (done)
+  Reactive dashboard (done)
+  Back-end database (done)
+  API exposure to security tooling
+  Automation logic for aperture queries
+  Develop PoC into MVP
+  Enhance dashboard UI/UX
+  Build governance framework for Open Source Community
+  Embed security controls into upstream DevOps pipeline
+  Embed security controls into source code
+Backlog:
+  Develop automation logic architectural patterns
+  Build and test automation logic
+  Develop queries and integrations for all capabilities
+  Overhaul dashboard UI
+
+Phase 2:
+  Develop Risk Correlation Engine
+  Create webform for Impact & Likelihood (I&L) quantification
+  Build backend database for I&L results
+  Create mechanism for capturing CVE/CVSS information
+  Develop automated process and calculations for correlating Risk info
+  Create Owner’s lens in dashboard
+  Create Risk aperture in dashboard
+Backlog:
+  N/A (for now)
