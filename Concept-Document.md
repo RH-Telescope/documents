@@ -50,3 +50,9 @@ The solution should then allow customers to have visibility and reconcile any in
 It is not intended to be a dashboard which apportions blame to development teams or points fingers at specific individuals but to provide better guidance to teams and provide blameless post-mortems.
 
 The ideal outcome would be for this to be an open source solution with organisations sharing integration plug-ins, bug fixes and creating additional functionality.
+
+A Hackathon was hosted by Red Hat in July 2022 with teams based in both London and North America and an initial dynamic Dashboard was created for the Proof of Concept (PoC).
+
+![Dashboard](dashboard.png)
+
+This shows that Project Telescope is starting to take shape with more development streams planned for the future! 
