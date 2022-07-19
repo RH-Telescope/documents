@@ -1,6 +1,5 @@
 ![GitHub Logo](project-telescope-red.png)
 
-# Project Telescope
 ## Concept Document
 
 ### Problem Space
