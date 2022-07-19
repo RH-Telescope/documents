@@ -39,7 +39,7 @@ Six areas have initially identified which could feed data into the Telescope sol
 5. Secure Code
 6. Vulnerability Scanning
 
-The MVP won’t initially provide alerting functionality as this will remain the perdue of the current organisation’s solution.
+The MVP won’t initially provide alerting functionality as this will remain the perdue of the organisation’s SIEM solution.
 
 ### Outcomes
 
