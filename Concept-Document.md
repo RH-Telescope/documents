@@ -1,6 +1,6 @@
-![GitHub Logo](rh-telescope-small.png)
+![GitHub Logo](project-telescope-red.png)
 
-# Advanced Security Governance
+# Project Telescope
 ## Concept Document
 
 ### Problem Space
@@ -22,7 +22,7 @@ Governance is the ability to demonstrate at a high level that this policy is bei
 
 ### Objectives
 
-The objective of Advanced Security Governance (ASG) is to provide this observability in a simple and holistic  dashboard which cuts across all projects and development teams to provide a straightforward binary (red or green) indication of governance status.  
+The objective of Project Telescope is to provide this observability in a simple and holistic  dashboard which cuts across all projects and development teams to provide a straightforward binary (red or green) indication of governance status.  
 
 The solution should be tool agnostic with the input streams being received via APIs using a modular plug-in concept.  Examples are plug-ins for Splunk integration, Elasticsearch, Jira plug-in, etc.  
 
@@ -32,7 +32,7 @@ The dashboard should be capable of displaying data through various lenses.
 * Team Lens:  Do all projects within this team conform to the security policies?
 * Risk Priority Lens: Which areas have the highest risk profile?
 
-Six areas have initially identified which could feed data into the ACG solution:
+Six areas have initially identified which could feed data into the Telescope solution:
 1. Secure Logging & Monitoring
 2. Secure Data
 3. Secure Infrastructure
