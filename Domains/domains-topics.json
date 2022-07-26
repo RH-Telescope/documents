@@ -1,0 +1,125 @@
+{
+  "domains": [
+    {
+      "name": "Secure-Infrastructure",
+      "topics": [
+        {
+          "name": "Secure-Images",
+          "why": "Private image repositories can enforce image signing so only signed images are pushed and used in a given environment. This can help reduce risk and ensure that only trusted and verified images are used across the organisation.",
+          "what": "All base images should be stored in a recognised, certified and protected image registry.",
+          "how": "Within BigCorp Inc, we recommend Red Hat Quay for storing all base images."
+        },
+        {
+          "name": "Platform Hardening",
+          "why": "XXX",
+          "what": "XXX",
+          "how": "XXX"
+        },
+        {
+          "name": "Container Protection",
+          "why": "XXX",
+          "what": "XXX",
+          "how": "XXX"
+        }
+      ]
+    },
+    {
+      "name": "Secure-Data",
+      "topics": [
+        {
+          "name": "Classification",
+          "why": "XXX",
+          "what": "XXX",
+          "how": "XXX"
+        },
+        {
+          "name": "Vulnerability Scanning",
+          "why": "XXX",
+          "what": "XXX",
+          "how": "XXX"
+        },
+        {
+          "name": "Encryption",
+          "why": "XXX",
+          "what": "XXX",
+          "how": "XXX"
+        },
+        {
+          "name": "Loss Prevention",
+          "why": "XXX",
+          "what": "XXX",
+          "how": "XXX"
+        }
+      ]
+    },
+    {
+      "name": "Secure-Code",
+      "topics": [
+        {
+          "name": "Static Code Analysis",
+          "why": "XXX",
+          "what": "XXX",
+          "how": "XXX"
+        },
+        {
+          "name": "Dynamic Code Analysis",
+          "why": "XXX",
+          "what": "XXX",
+          "how": "XXX"
+        },
+        {
+          "name": "Vulnerability Assessment",
+          "why": "XXX",
+          "what": "XXX",
+          "how": "XXX"
+        }
+      ]
+    },
+    {
+      "name": "Secure-Integrations",
+      "topics": [
+        {
+          "name": "Authentication",
+          "why": "XXX",
+          "what": "XXX",
+          "how": "XXX"
+        },
+        {
+          "name": "Traffic Analysis",
+          "why": "XXX",
+          "what": "XXX",
+          "how": "XXX"
+        },
+        {
+          "name": "Exposure Protection",
+          "why": "XXX",
+          "what": "XXX",
+          "how": "XXX"
+        },
+        {
+          "name": "Secure Protocols",
+          "why": "XXX",
+          "what": "XXX",
+          "how": "XXX"
+        }
+      ]
+    },
+    {
+      "name": "Secure Monitoring and Logging",
+      "topics": [
+        {
+          "name": "Access Monitoring",
+          "why": "XXX",
+          "what": "XXX",
+          "how": "XXX"
+        },
+        {
+          "name": "Log Centralization",
+          "why": "XXX",
+          "what": "XXX",
+          "how": "XXX"
+        }
+      ]
+    }
+  ]
+}
