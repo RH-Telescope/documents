@@ -34,9 +34,9 @@
         },
         {
           "name": "Vulnerability Scanning",
-          "why": "XXX",
-          "what": "XXX",
-          "how": "XXX"
+          "why": "Vulnerability testing is an essential part of mitigating your organisation's security risks. By using a vulnerability scanner to identify the points of weakness in your systems, you can reduce the attack surface that criminals might exploit, focusing your security efforts on the most likely targeted areas.",
+          "what": "All container images deployed to the staging environment and beyond should be scanned using a recognised vulnerability scanner.",
+          "how": "Within BigCorp Inc, we recommend Red Hat Advanced Cluster Security should be built in to all CI/CD pipelines."
         },
         {
           "name": "Encryption",
@@ -57,9 +57,9 @@
       "topics": [
         {
           "name": "Static Code Analysis",
-          "why": "XXX",
-          "what": "XXX",
-          "how": "XXX"
+          "why": "Using a SAST tool will improve the overall quality of the code developed and reduce risk by identifying possible issues early in the development lifecycle.",
+          "what": "Static Application Security Testing (SAST) must be carried out before an application is deployed to the staging environment.",
+          "how": "Within BigCorp Inc, we recommend using SonarQube or Codacy."
         },
         {
           "name": "Dynamic Code Analysis",
@@ -115,9 +115,11 @@
         },
         {
           "name": "Log Centralization",
-          "why": "XXX",
-          "what": "XXX",
-          "how": "XXX"
+          "why": "Security monitoring and logging is central to the identification and detection of threats to your IT systems. It acts as your eyes and ears when detecting and recovering from security incidents.
+Effective monitoring relies on proportionate, reliable logging and device management practices.
+",
+          "what": "The following logging should be forwarded to a centralised logging system: Host-based logs, Service logs, Infrastructure logs, System compliance audits",
+          "how": "Within BigCorp Inc, we recommend that all logs are forwarded to our centralised Splunk instance."
         }
       ]
     }
