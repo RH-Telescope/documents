@@ -1,3 +1,3 @@
-# Project Documents
+# Project Architecture Documents
 
-This is just a simple repo containing some "brain dump" docs
+This folder contains the Architecture deep dive
